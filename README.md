@@ -20,6 +20,6 @@ python simulation.py
 compile and run simulation_traj.m
 ```
 ## Simulation Files
-- rule_based.mat: Vehicle A based on rule-based lane changing without considering other vehicles and collisions.
-- rule_safety12m.mat: Vehicle A intended to conduct rule-base lane changing, but fail due to safety distance.
-- game_theory.mat: Vehicle A succeed to change lane via game with Vehicle B, while considering safety distance.
+- ```rule_based.mat```: Vehicle A based on rule-based lane changing without considering other vehicles and collisions.
+- ```rule_safety12.mat```: Vehicle A intended to conduct rule-base lane changing, but fail due to safety distance.
+- ```game_theory.mat```: Vehicle A succeed to change lane via game with Vehicle B, while considering safety distance.
