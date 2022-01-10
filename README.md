@@ -19,7 +19,13 @@ python simulation.py
 ```
 compile and run simulation_traj.m
 ```
-## Simulation Files
-- ```rule_based.mat```: Vehicle A based on rule-based lane changing without considering other vehicles and collisions.
-- ```rule_safety12.mat```: Vehicle A intended to conduct rule-base lane changing, but fail due to safety distance.
+3. Analyze the lane changing trajectory
+```
+compile and run plot_3d.m, plot_traj.m
+```
+## Simulation Result
+1. In ```DrivingScenario`` directory,  there are driving scenarios files that can be visualized by MATLAB automated driving toolbox.  
+- ```rule_based.mat```: Vehicle A based on rule-based lane changing, and fails because of safety distance
+- ```data_based.mat```:  The visualization of real world data from NGSIM data, vehicle A fails to change lane.
 - ```game_theory.mat```: Vehicle A succeed to change lane via game with Vehicle B, while considering safety distance.
+2. In ```video`` directory, there are videos of the visualization of the three driving scenario files.  
